@@ -1,98 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"> 
-     <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  <link rel="stylesheet" href="../CSS/style.css">
+  <title>Usuarios</title>
 </head>
+
 <body>
-    
-    <div class="field">
-  <label class="label">Name</label>
-  <div class="control">
-    <input class="input" type="text" placeholder="Text input">
-  </div>
-</div>
+
+  <section class="section">
+    <div class="container">
+
+      <h1 class="title">Registro de Usuarios</h1>
+
+      
+      <div class="field">
+        <label class="label">Nombre Completo</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese el nombre completo">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Telefono</label>
+        <div class="control">
+          <input class="input" type="tel" placeholder="Ingrese el telefono">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Direccion</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese la direccion">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Correo Electronico</label>
+        <div class="control">
+          <input class="input" type="email" placeholder="Ingrese el correo">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Contraseña</label>
+        <div class="control">
+          <input class="input" type="password" placeholder="Ingrese la contraseña">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Fecha de Nacimiento</label>
+        <div class="control">
+          <input class="input" type="date">
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Documento de Identidad</label>
+        <div class="control">
+          <input class="input" type="number" placeholder="Ingrese el documento">
+        </div>
+      </div>
+
+     
+      <div class="field">
+        <label class="label">Estado Civil</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Seleccione</option>
+              <option>Soltero</option>
+              <option>Casado</option>
+              <option>Union Libre</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="field">
+        <label class="label">Genero</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Seleccione</option>
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>Otro</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
 
+            
+      <div class="field">
+        <label class="label">Grupo Sanguineo</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Seleccione</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+              <option>O+</option>
+              <option>O-</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
-<div class="field">
-  <label class="label">Username</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-success" type="text" placeholder="Text input" value="bulma">
-    <span class="icon is-small is-left">
-      <i class="fas fa-user"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-check"></i>
-    </span>
-  </div>
-  <p class="help is-success">This username is available</p>
-</div>
+      <!-- Profesion -->
+      <div class="field">
+        <label class="label">Profesion</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese la profesion">
+        </div>
+      </div>
 
-<div class="field">
-  <label class="label">Email</label>
-  <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email input" value="hello@">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
-  </div>
-  <p class="help is-danger">This email is invalid</p>
-</div>
+      
+      <div class="field">
+        <label class="label">Rol</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Seleccione</option>
+              <option>Cliente</option>
+              <option>Empleado</option>
+              <option>Administrador</option>
+            </select>
+          </div>
+        </div>
+      </div>
 
-<div class="field">
-  <label class="label">Subject</label>
-  <div class="control">
-    <div class="select">
-      <select>
-        <option>Select dropdown</option>
-        <option>With options</option>
-      </select>
+      
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Guardar</button>
+        </div>
+
+        <div class="control">
+           <a class="button is-link is-light" type="button" href="../INDEX.HTML"> HOME</a>
+        </div>
+      </div>
+
     </div>
-  </div>
-</div>
+  </section>
 
-<div class="field">
-  <label class="label">Message</label>
-  <div class="control">
-    <textarea class="textarea" placeholder="Textarea"></textarea>
-  </div>
-</div>
-
-<div class="field">
-  <div class="control">
-    <label class="checkbox">
-      <input type="checkbox">
-      I agree to the <a href="#">terms and conditions</a>
-    </label>
-  </div>
-</div>
-
-<div class="field">
-  <div class="control">
-    <label class="radio">
-      <input type="radio" name="question">
-      Yes
-    </label>
-    <label class="radio">
-      <input type="radio" name="question">
-      No
-    </label>
-  </div>
-</div>
-
-<div class="field is-grouped">
-  <div class="control">
-    <button class="button is-link">Submit</button>
-  </div>
-  <div class="control">
-    <button class="button is-link is-light">Cancel</button>
-  </div>
-</div>
 </body>
+
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+   <link rel="stylesheet" href="../CSS/pedido.css">
+  <title>Pedido</title>
+</head>
+
+<body>
+
+  <section class="section">
+    <div class="container">
+
+      <h1 class="title">Pedidos</h1>
+
+      <!-- Producto -->
+      <div class="field">
+        <label class="label">Producto</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese el producto">
+        </div>
+      </div>
+
+      <!-- Direccion -->
+      <div class="field">
+        <label class="label">Direccion</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese la direccion">
+        </div>
+      </div>
+
+      <!-- Nombre del Usuario -->
+      <div class="field">
+        <label class="label">Nombre del Usuario</label>
+        <div class="control">
+          <input class="input" type="text" placeholder="Ingrese el nombre">
+        </div>
+      </div>
+
+      <!-- Cantidad -->
+      <div class="field">
+        <label class="label">Cantidad</label>
+        <div class="control">
+          <input class="input" type="number" placeholder="Ingrese la cantidad">
+        </div>
+      </div>
+
+      <!-- Metodo de Pago -->
+      <div class="field">
+        <label class="label">Metodo de Pago</label>
+        <div class="control">
+          <div class="select">
+            <select>
+              <option>Seleccione</option>
+              <option>Efectivo</option>
+              <option>Tarjeta</option>
+              <option>Transferencia</option>
+              <option>Nequi</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Telefono -->
+      <div class="field">
+        <label class="label">Telefono</label>
+        <div class="control">
+          <input class="input" type="tel" placeholder="Ingrese el telefono">
+        </div>
+      </div>
+
+      <!-- Botones -->
+      <div class="field is-grouped">
+        <div class="control">
+          <button class="button is-link">Guardar</button>
+        </div>
+
+        <div class="control">
+           <a class="button is-link is-light" type="button" href="../INDEX.HTML"> HOME</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+
+</html>
